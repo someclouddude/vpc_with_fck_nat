@@ -1,0 +1,33 @@
+# Local Terraform directories
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files
+# Uncomment if you want to ignore all .tfvars and .tfvars.json files
+# *.tfvars
+# *.tfvars.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform override files
+# Override files are often used for local testing and should not be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+# Plan files contain the proposed changes and can be large or contain sensitive info
+*.tfplan
+
+# Terraform lock file (optional - see note below)
+# .terraform.lock.hcl
